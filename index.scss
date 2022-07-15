@@ -1,0 +1,54 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+  max-width: 640px;
+  margin: 0 auto;
+
+  .content{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+    .news-block{
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      justify-content: space-between;
+
+      .news{
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        img{
+          display: block;
+        }
+        .news-content{
+          .title{
+            font-size: 20px;
+            line-height: 1.2;
+          }
+          .text{
+            font-size: 16px;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+
+    .ad{
+      img{
+        display: block;
+      }
+    }
+  }
+  .footer{
+    min-height: 120px;
+
+    .footer-text{
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+}
