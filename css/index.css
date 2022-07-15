@@ -59,7 +59,7 @@
   display: block;
 }
 .container .footer {
-  min-height: 120px;
+  max-height: 120px;
 }
 .container .footer .footer-text {
   font-size: 16px;
