@@ -1,35 +1,32 @@
-.container{
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  justify-content: space-between;
+.container {
   max-width: 640px;
   margin: 0 auto;
 
-  .content{
+  .content {
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    margin-bottom: 24px;
 
-    .news-block{
+    .news-block {
       display: flex;
       flex-direction: column;
       gap: 24px;
       justify-content: space-between;
 
-      .news{
+      .news {
         display: flex;
         gap: 20px;
         justify-content: space-between;
-        img{
+        img {
           display: block;
         }
-        .news-content{
-          .title{
+        .news-content {
+          .title {
             font-size: 20px;
             line-height: 1.2;
           }
-          .text{
+          .text {
             font-size: 16px;
             line-height: 1.5;
           }
@@ -37,16 +34,14 @@
       }
     }
 
-    .ad{
-      img{
+    .ad {
+      img {
         display: block;
       }
     }
   }
-  .footer{
-    max-height: 120px;
-
-    .footer-text{
+  .footer {
+    .footer-text {
       font-size: 16px;
       line-height: 1.5;
     }
